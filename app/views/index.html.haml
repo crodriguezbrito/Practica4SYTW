@@ -28,6 +28,8 @@
               %h2 Ganaste; #{player_throw} vence a #{computer_throw}.
             - elsif (anwser == 'Perder')
               %h2 Ouch Perdiste; #{computer_throw} vence a #{player_throw}.
-           
+      .container        
+        %a{:href => '/'} 
+          %button.btn.btn-success{type: "button"} Volver a Empezar 
     %script{:src => "/js/bootstrap.js"}
    

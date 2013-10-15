@@ -7,12 +7,12 @@
 1. Objetivo de la práctica
 --------------------------
 
-Añadir Template Haml a Rock, Paper, Scissors
+Añadir hojas de estilo al Template Haml a Rock, Paper, Scissors
 
 2. Ejecución de la práctica
 ---------------------------
 
-Para ejecutar la práctica podemos hacer `rake` o bien `ruby rps.rb` y acceder a la dirección http://localhost:9292/
+Para ejecutar la práctica podemos hacer `rake` o bien vamos a la carpeta /app y ejecutamos`ruby rps.rb` y acceder a la dirección $ http://localhost:9292/
 
 
 
