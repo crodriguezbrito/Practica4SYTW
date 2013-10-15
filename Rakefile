@@ -1,4 +1,4 @@
 desc "Ejecucion Rock Paper Scissors"
 task :default do
-  sh "ruby rps.rb"
+  sh "ruby app/rps.rb"
 end

@@ -1,7 +1,7 @@
 **Cuarta Práctica SYTW**
 ============================
 <center>
-![](http://www.pisitoenmadrid.com/blog/wp-content/uploads/2010/08/piedra-papel-tijera.jpg)
+![](http://2.bp.blogspot.com/-729ky8486U8/TVvxgUiGAOI/AAAAAAAAAFE/1v-5WuFi0fw/s400/piedrapapeltijera.jpg)
 </center>
 
 1. Objetivo de la práctica
@@ -19,3 +19,5 @@ Para ejecutar la práctica podemos hacer `rake` o bien `ruby rps.rb` y acceder a
 3. Desarrollador
 ----------------
 Carlos Rodríguez Brito
+
+
