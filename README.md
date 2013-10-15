@@ -1,6 +1,8 @@
 **Cuarta Práctica SYTW**
 ============================
-
+<center>
+http://www.pisitoenmadrid.com/blog/wp-content/uploads/2010/08/piedra-papel-tijera.jpg
+</center>
 
 1. Objetivo de la práctica
 --------------------------
