@@ -20,14 +20,14 @@
         computer_throw = @throws.sample
         player_throw = req.GET["choice"]
         anwser = if !@throws.include?(player_throw)
-            "Elige Rock Paper o Scissors para empezar a jugar:"
+           inicio = "Elige Rock Paper o Scissors para empezar a jugar:"
           elsif player_throw == computer_throw
             "Empate"
           elsif computer_throw == @defeat[player_throw]
-            "Ganaste; #{player_throw} vence a #{computer_throw}."
+			"Ganar"
           
-                    else
-            "Ouch Perdiste; #{computer_throw} vence a #{player_throw}."
+          else
+            "Perder"        
           end
   
 			engine = Haml::Engine.new File.open("./app/views/index.html.haml").read
@@ -37,7 +37,8 @@
 				:choose => @choose,
 				:throws => @throws,
 				:computer_throw => computer_throw,
-				:player_throw => player_throw,)
+				:player_throw => player_throw,
+				:inicio => inicio,)
 			res.finish
       end # call
     end   # App
