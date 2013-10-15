@@ -1,7 +1,7 @@
 **Cuarta Práctica SYTW**
 ============================
 <center>
-![](http://2.bp.blogspot.com/-729ky8486U8/TVvxgUiGAOI/AAAAAAAAAFE/1v-5WuFi0fw/s400/piedrapapeltijera.jpg)
+![](http://www.evilmilk.com/pictures/Rock_Paper_Scissors178.jpg)
 </center>
 
 1. Objetivo de la práctica

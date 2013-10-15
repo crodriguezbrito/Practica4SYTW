@@ -6,19 +6,21 @@
     %link{:href => "/css/bootstrap.css", :rel => "stylesheet"}
     %link{:href => "/css/bootstrap-responsive.css", :rel => "stylesheet"}/
   %body
-    .container
-      %h3= anwser
-      %h2
-        %a{:href => '?choice=rock'}
-          %button.btn.btn-danger{type: "button"} Rock
-        %br
-        %a{:href => '?choice=paper'}
-          %button.btn.btn-danger{type: "button"} Paper
-        %br
-        %a{:href => '?choice=scissors'}
-          %button.btn.btn-danger{type: "button"} Scissors
-      
+    .navbar.navbar-inverse.navbar-fixed-top
+      .navbar-inner
+      .container
+        %h2
+          - throws.map do |x|
+            %a{:href => "?choice=#{x}"} 
+              - if ("#{x}" == 'rock')               
+                %button.btn.btn-danger{type: "button"} Rock
+              - elsif ("#{x}" == 'paper')
+                %button.btn.btn-danger{type: "button"} Paper
+              - elsif ("#{x}" == 'scissors')
+                %button.btn.btn-danger{type: "button"} Scissors
+        %h3= anwser
 
+      
     %script{:src => "/js/bootstrap.js"}
     %script{:src => "/js/bootstrap.js"}
     %script{:src => "/js/bootstrap.js"}
